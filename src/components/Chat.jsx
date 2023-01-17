@@ -7,7 +7,7 @@ import icon from "../images/emoji.svg";
 import EmojiPicker from "emoji-picker-react";
 import Messages from "./Messages";
 
-const socket = io.connect("https://onlinechat-betta.onrender.com");
+const socket = io.connect("https://chat-beta.onrender.com");
 
 const Chat = () => {
   const { search } = useLocation();
